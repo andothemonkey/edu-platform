@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Освітня платформа для дітей</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Освітня платформа</h1>
+      <ul class="nav-menu">
+        <li><a href="#hero">Головна</a></li>
+        <li><a href="#courses">Курси</a></li>
+        <li><a href="#partners">Партнери</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="hero">
+    <h2>Вчитися — це цікаво!</h2>
+    <a href="#courses" class="btn">Переглянути курси</a>
+  </section>
+
+  <section id="courses" class="container">
+    <h2>Наші курси</h2>
+    <div class="course-list">
+      <div class="course"><a href="Math.html">Математика</a></div>
+      <div class="course"><a href="Programming.html">Програмування</a></div>
+      <div class="course"><a href="languages.html">Англійська мова</a></div>
+    </div>
+  </section>
+
+  <section id="partners" class="container">
+    <h2>Наші партнери</h2>
+    <div class="slider">
+      <div class="slides">
+        <img src="https://osvita.ua/doc/images/guide/187/18701/fon-3-18701_i.jpg" alt="Партнер 1" />
+        <img src="https://static.tildacdn.one/tild6535-6538-4365-b131-306265626435/uni_profile_93407.jpg" alt="Партнер 2" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyu7mE5tqODxY5tKvDvjBOPiKVadd2PjqW_g&s" alt="Партнер 3" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlLG6HLQ4Y2NRJ4iE4RrHhZpHram5SEQD1TQ&s" alt="Партнер 4" />
+      </div>
+    </div>
+    <div class="slider-buttons">
+      <button id="prev">Назад</button>
+      <button id="next">Вперед</button>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Зворотній зв'язок</h2>
+    <form>
+      <input type="text" placeholder="Ім'я" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Повідомлення" required></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Освітня платформа для дітей. Всі права захищено.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
